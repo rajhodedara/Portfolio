@@ -9,6 +9,7 @@ import ChapterProgressBar from '@/components/ChapterProgressBar'
 import AwakeningEasterEgg from '@/components/AwakeningEasterEgg'
 import SpeedLines from '@/components/SpeedLines'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const bangers = Bangers({
   weight: '400',
@@ -51,12 +52,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Raj Odedara', url: 'https://github.com/rajhodedara' }],
   creator: 'Raj Odedara',
-  metadataBase: new URL('https://rajodedara.dev'),
+  metadataBase: new URL('https://rajodedara.vercel.app/'),
   openGraph: {
     title: 'Raj Odedara — AI & Full-Stack Developer',
     description:
       'Manga-style portfolio for Raj Odedara: AI & Data Science student, solo SaaS builder, trading engine architect.',
-    url: 'https://rajodedara.dev',
+    url: 'https://rajodedara.vercel.app/',
     siteName: 'Raj Odedara Portfolio',
     locale: 'en_US',
     type: 'website',
@@ -95,6 +96,7 @@ export default function RootLayout({
           <PageTransition>{children}</PageTransition>
         </main>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
