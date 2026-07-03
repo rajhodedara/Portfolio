@@ -9,6 +9,7 @@ import ChapterProgressBar from '@/components/ChapterProgressBar'
 import AwakeningEasterEgg from '@/components/AwakeningEasterEgg'
 import SpeedLines from '@/components/SpeedLines'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const bangers = Bangers({
   weight: '400',
@@ -95,6 +96,7 @@ export default function RootLayout({
           <PageTransition>{children}</PageTransition>
         </main>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
