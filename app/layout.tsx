@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: 'Raj Odedara — AI & Full-Stack Developer',
     description:
       'Manga-style portfolio for Raj Odedara: AI & Data Science student, solo SaaS builder, trading engine architect.',
-    url: 'https://rajodedara.vercel.app/,
+    url: 'https://rajodedara.vercel.app/',
     siteName: 'Raj Odedara Portfolio',
     locale: 'en_US',
     type: 'website',
