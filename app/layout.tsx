@@ -51,12 +51,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Raj Odedara', url: 'https://github.com/rajhodedara' }],
   creator: 'Raj Odedara',
-  metadataBase: new URL('https://rajodedara.dev'),
+  metadataBase: new URL('https://rajodedara.vercel.app/'),
   openGraph: {
     title: 'Raj Odedara — AI & Full-Stack Developer',
     description:
       'Manga-style portfolio for Raj Odedara: AI & Data Science student, solo SaaS builder, trading engine architect.',
-    url: 'https://rajodedara.dev',
+    url: 'https://rajodedara.vercel.app/,
     siteName: 'Raj Odedara Portfolio',
     locale: 'en_US',
     type: 'website',
