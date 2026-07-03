@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120" preserveAspectRatio="none">
+  <!-- Main splatter shape -->
+  <path d="M0,60 C20,20 40,0 80,10 C100,15 110,40 140,30 C165,22 170,0 200,5 C230,10 235,35 265,25 C290,16 295,0 330,8 C360,15 365,40 400,35 C430,30 440,10 470,15 C495,20 500,45 530,38 C558,32 562,12 595,18 C622,23 628,48 660,42 C688,36 695,15 730,20 C755,24 760,50 800,45 L800,120 L0,120 Z" fill="#0A0A0A" opacity="0.9"/>
+  <!-- Splatter drips -->
+  <ellipse cx="150" cy="10" rx="8" ry="12" fill="#0A0A0A" transform="rotate(-20, 150, 10)"/>
+  <ellipse cx="320" cy="5" rx="6" ry="14" fill="#0A0A0A" transform="rotate(15, 320, 5)"/>
+  <ellipse cx="480" cy="8" rx="7" ry="10" fill="#0A0A0A" transform="rotate(-10, 480, 8)"/>
+  <ellipse cx="640" cy="12" rx="5" ry="9" fill="#0A0A0A" transform="rotate(25, 640, 12)"/>
+  <!-- Small ink drops -->
+  <circle cx="90" cy="3" r="4" fill="#0A0A0A"/>
+  <circle cx="100" cy="8" r="2" fill="#0A0A0A"/>
+  <circle cx="240" cy="2" r="3" fill="#0A0A0A"/>
+  <circle cx="410" cy="4" r="5" fill="#0A0A0A"/>
+  <circle cx="415" cy="0" r="2" fill="#0A0A0A"/>
+  <circle cx="555" cy="6" r="3" fill="#0A0A0A"/>
+  <circle cx="710" cy="5" r="4" fill="#0A0A0A"/>
+  <circle cx="718" cy="1" r="2" fill="#0A0A0A"/>
+</svg>

@@ -1,0 +1,33 @@
+/* Add to the end of globals.css */
+
+/* ── CUSTOM MANGA SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--bg);
+  border-left: 3px solid var(--ink);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+  /* Add halftone dots to the track using radial gradient */
+  background-image: radial-gradient(var(--ink) 1px, transparent 1px);
+  background-size: 8px 8px;
+  background-position: 0 0;
+  opacity: 0.1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D62828;
+  border: 3px solid var(--ink);
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #FF4545;
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D62828 var(--bg);
+}
