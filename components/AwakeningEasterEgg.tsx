@@ -193,8 +193,11 @@ export default function AwakeningEasterEgg() {
             transition: phase === 'reveal' ? 'opacity 0.8s ease-out' : 'none',
           }}
         >
-          {/* Blackout background */}
-          <div className="absolute inset-0 bg-[#050101]" />
+          {/* Blackout background with Gojo image */}
+          <div 
+            className="absolute inset-0 bg-[#050101] bg-contain bg-center bg-no-repeat opacity-50 mix-blend-luminosity" 
+            style={{ backgroundImage: "url('/gojo-loading.png')" }}
+          />
 
           {/* Stamp & Glitch Phase */}
           {(phase === 'stamp' || phase === 'glitch') && (

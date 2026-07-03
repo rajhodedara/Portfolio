@@ -184,8 +184,9 @@ export default function Navbar() {
             {/* Resume download */}
             <a
               href="/resume.pdf"
-              download
-              className="manga-btn hidden sm:flex items-center gap-1.5 px-3 py-1.5 text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="manga-btn flex items-center gap-1.5 px-2 py-1.5 sm:px-3 text-[10px] sm:text-sm"
               style={{
                 background: 'var(--red)',
                 color: 'var(--paper)',

@@ -130,7 +130,8 @@ export default function GuildCard() {
             
             <a 
               href="/resume.pdf"
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full py-2 font-bangers text-lg tracking-widest transition-transform hover:scale-105 active:scale-95"
               style={{
                 background: '#D62828',
@@ -139,9 +140,11 @@ export default function GuildCard() {
                 boxShadow: '3px 3px 0 #F5F1E8',
               }}
               onClick={(e) => {
-                e.stopPropagation() // Stop propagation so card doesn't flip when clicking download
+                e.stopPropagation()
                 track('resume_download')
               }}
+              onTouchStart={(e) => e.stopPropagation()}
+              onTouchEnd={(e) => e.stopPropagation()}
             >
               DOWNLOAD RESUME ↓
             </a>
