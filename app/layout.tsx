@@ -8,7 +8,7 @@ import PageTransition from '@/components/PageTransition'
 import ChapterProgressBar from '@/components/ChapterProgressBar'
 import AwakeningEasterEgg from '@/components/AwakeningEasterEgg'
 import SpeedLines from '@/components/SpeedLines'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 
 const bangers = Bangers({
   weight: '400',
