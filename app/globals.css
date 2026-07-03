@@ -325,8 +325,8 @@ input, textarea, select {
 
 .awakened {
   --bg: #050101;
-  --ink: #FF1A1A;
-  --ink-rgb: 255, 26, 26;
+  --ink: #F5F1E8;
+  --ink-rgb: 245, 241, 232;
   --red: #FF0000;
   --yellow: #FFB800;
   --gray: #330000;

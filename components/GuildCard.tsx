@@ -14,7 +14,7 @@ export default function GuildCard() {
 
   const handleFlip = (e: React.MouseEvent) => {
     // If they click the download link itself, don't flip back immediately
-    if ((e.target as HTMLElement).tagName === 'A') {
+    if ((e.target as HTMLElement).closest('a')) {
       return
     }
     playClickSound()
