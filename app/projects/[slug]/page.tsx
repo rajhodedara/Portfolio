@@ -227,7 +227,7 @@ export default async function ProjectSlugPage({ params }: Props) {
                   className="p-3 font-ibm-mono text-xs leading-relaxed italic"
                   style={{
                     border: '2px solid var(--ink)',
-                    background: 'rgba(255,214,10,0.04)',
+                    background: 'var(--paper)',
                     color: 'var(--ink)',
                   }}
                 >
