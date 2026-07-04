@@ -62,12 +62,21 @@ export const metadata: Metadata = {
     siteName: 'Raj Odedara Portfolio',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Raj Odedara — AI & Full-Stack Developer',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Raj Odedara — AI & Full-Stack Developer',
     description:
       'Manga-style developer portfolio. 4 solo projects. Seeking SE/AI-ML internships.',
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,
