@@ -7,6 +7,7 @@ import InkCursor from '@/components/InkCursor'
 import PageTransition from '@/components/PageTransition'
 import ChapterProgressBar from '@/components/ChapterProgressBar'
 import AwakeningEasterEgg from '@/components/AwakeningEasterEgg'
+import CursedParticles from '@/components/CursedParticles'
 import SpeedLines from '@/components/SpeedLines'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -90,6 +91,7 @@ export default function RootLayout({
         <InkCursor />
         <ChapterProgressBar />
         <AwakeningEasterEgg />
+        <CursedParticles />
         <SpeedLines className="fixed inset-0 z-[-1] pointer-events-none" dynamic={true} />
         <Navbar />
         <main className="pt-14 sm:pt-16">

@@ -13,7 +13,7 @@
   --color-manga-red: var(--red);
   --color-manga-red-dark: #FF4040;
   --color-manga-gray: var(--gray);
-  --color-manga-gray-light: #6B6B6B;
+  --color-manga-gray-light: var(--gray-light);
   --color-manga-yellow: var(--yellow);
   --color-manga-yellow-dark: #FFE94D;
   --color-manga-cream: var(--cream);
@@ -303,6 +303,7 @@ input, textarea, select {
   --red: #D62828;
   --yellow: #FFD60A;
   --gray: #2B2B2B;
+  --gray-light: #6B6B6B;
   --paper: #F5F1E8;
   --paper-rgb: 245, 241, 232;
   --cream: #EDE8D8;
@@ -317,9 +318,11 @@ input, textarea, select {
   --red: #FF4040;
   --yellow: #FFE94D;
   --gray: #CCCCCC;
+  --gray-light: #A0A0A0;
   --paper: #1A1A1A;
   --paper-rgb: 26, 26, 26;
   --cream: #2B2B2B;
+  --sepia: #D2B48C;
   --shadow-color: #FF4040;
 }
 
@@ -329,10 +332,12 @@ input, textarea, select {
   --ink-rgb: 245, 241, 232;
   --red: #FF0000;
   --yellow: #FFB800;
-  --gray: #330000;
+  --gray: #CCCCCC;
+  --gray-light: #A0A0A0;
   --paper: #0A0202;
   --paper-rgb: 10, 2, 2;
   --cream: #1A0505;
+  --sepia: #E6CCAB;
   --shadow-color: #FF0000;
 }
 
