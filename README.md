@@ -48,19 +48,24 @@ A **manga/shonen anime aesthetic** developer portfolio for Raj Odedara, built wi
 
 ## 🚀 Setup
 
-```bash
-# Install dependencies
-npm install
+1. **Environment Variables**
+   Copy the example environment file and fill in your details:
+   ```bash
+   cp .env.example .env.local
+   ```
+   *Note: Add your Formspree endpoint URL to `NEXT_PUBLIC_FORMSPREE_URL` so the contact form can send emails.*
 
-# Start dev server
-npm run dev
+2. **Install & Run**
+   ```bash
+   # Install dependencies
+   npm install
 
-# Build for production
-npm run build
+   # Start dev server
+   npm run dev
 
-# Start production server
-npm start
-```
+   # Build for production
+   npm run build
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -115,6 +120,12 @@ Edit `app/globals.css` `@theme {}` block:
 Update `data/personal.ts` with your actual:
 - GitHub, LinkedIn, LeetCode URLs
 - Email address
+
+### Contact Form (Formspree)
+The contact form uses [Formspree](https://formspree.io) to handle submissions without a backend.
+1. Create a free Formspree account and a new form.
+2. Get your endpoint URL (e.g. `https://formspree.io/f/your_id`).
+3. Add it to your `.env.local` file as `NEXT_PUBLIC_FORMSPREE_URL=...`.
 
 ### Resume PDF
 Drop your PDF at `public/resume.pdf`.
