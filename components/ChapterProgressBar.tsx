@@ -57,7 +57,7 @@ function ChapterProgressBarInner({
           if (entry.isIntersecting) setActive(entry.target.id)
         })
       },
-      { rootMargin: '-20% 0px -70% 0px' }
+      { rootMargin: '-40% 0px -40% 0px' }
     )
 
     document.querySelectorAll('section[id]').forEach((s) => observer.observe(s))

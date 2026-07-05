@@ -53,7 +53,7 @@ export default function Navbar() {
           }
         })
       },
-      { rootMargin: '-20% 0px -80% 0px' }
+      { rootMargin: '-40% 0px -40% 0px' }
     )
 
     const sections = document.querySelectorAll('section[id]')
