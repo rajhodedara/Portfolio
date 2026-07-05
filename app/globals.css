@@ -399,9 +399,7 @@ input, textarea, select {
   z-index: 9998;
 }
 
-.awakened-domain body {
-  /* Removed animation: float-domain here because transform on body breaks position: fixed for cursors/navbars. */
-}
+
 
 .awakened-domain .manga-panel, 
 .awakened-domain .manga-btn,

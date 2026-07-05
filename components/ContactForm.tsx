@@ -63,14 +63,28 @@ export default function ContactForm() {
       setBossHp(Math.max(0, currentHp))
     }, 50)
 
-    // Wait for slash animation then show submitted screen
-    setTimeout(() => {
-      // Open mailto with form data
+    const formspreeUrl = process.env.NEXT_PUBLIC_FORMSPREE_URL;
+
+    if (formspreeUrl) {
+      fetch(formspreeUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(form)
+      }).catch(err => console.error('Formspree error:', err));
+    } else {
+      // Fallback to mailto if no Formspree URL is provided
       const subject = encodeURIComponent(`Portfolio Contact from ${form.name}`)
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
       )
       window.open(`mailto:${personal.email}?subject=${subject}&body=${body}`)
+    }
+
+    // Wait for slash animation then show submitted screen
+    setTimeout(() => {
       setSubmitted(true)
     }, 900)
   }

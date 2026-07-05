@@ -4,7 +4,7 @@ export const personal = {
   tagline: 'AI & Data Science · Full-Stack Builder · Third-Year Undergrad',
   location: 'Mumbai, India',
   email: 'odedararaj456@gmail.com',
-  bio: 'Third-year undergraduate in AI & Data Science at KJ Somaiya Institute of Technology. Shipped a live SaaS platform with UPI payment integration, a FinBERT-powered multi-signal trading engine, and a production Windows desktop app — all as solo projects. Seeking Software Engineering or AI/ML internships where I can contribute immediately.',
+  bio: 'Third-year undergraduate in AI & Data Science at KJ Somaiya Institute of Technology. Shipped a live SaaS platform with UPI payment integration, a FinBERT-powered multi-signal trading engine, and a production Windows desktop app, all as solo projects. Seeking Software Engineering or AI/ML internships where I can contribute immediately.',
 
   education: {
     institution: 'KJ Somaiya Institute of Technology',

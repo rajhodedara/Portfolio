@@ -56,7 +56,7 @@ export default function ProjectsSection() {
                 SOLO ARCS. ZERO TUTORIALS.
               </p>
               <p className="font-ibm-mono text-xs text-manga-paper opacity-60 mt-1">
-                Each project was conceived, architected, and shipped alone — from database schema to production deployment.
+                Each project was conceived, architected, and shipped alone, from database schema to production deployment.
                 Click any arc to read the full story.
               </p>
             </div>

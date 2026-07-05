@@ -50,7 +50,7 @@ export default function ExperienceSection() {
             </p>
             <p className="font-ibm-mono text-sm text-manga-paper leading-relaxed max-w-3xl opacity-80">
               Every great protagonist earns their power through experience. This flashback arc shows where
-              the real-world operational insight behind the Courier DBMS project was forged — at a counter,
+              the real-world operational insight behind the Courier DBMS project was forged: at a counter,
               with paper records and manual reconciliation, before the code even began.
             </p>
           </div>

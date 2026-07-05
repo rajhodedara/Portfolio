@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
       'Handled daily end-to-end booking data entry for 50+ parcels across multiple courier routes.',
       'Maintained billing records and performed transaction reconciliation to ensure financial accuracy.',
       'Identified critical workflow bottlenecks: manual paper-based tracking, error-prone billing, and slow customer lookups.',
-      'Translated operational pain points into technical requirements — directly motivating the Courier Service DBMS project.',
+      'Translated operational pain points into technical requirements, directly motivating the Courier Service DBMS project.',
       'Coordinated with counter staff to understand on-the-ground operational needs and designed UI flows around their workflow.',
     ],
     type: 'job',
